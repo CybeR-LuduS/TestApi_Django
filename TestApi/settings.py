@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'TestApi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': '127.0.0.1:1521/orcl',
-        'USER': 'hr',
-        'PASSWORD': 'hr'
+        'ENGINE': 'djongo',
+        'NAME': 'api_db',
+        'HOST': '127.0.0.1',
+        'PORT': 27017,
     }
 }
 
