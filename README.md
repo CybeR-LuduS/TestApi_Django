@@ -4,7 +4,7 @@
 
 ## Instrucciones
 
-### Instalaciones previas: Programas
+### 1.1. Instalaciones previas: Programas
 **Python** (lenguaje de programación interpretado)
  * Página oficial: https://www.python.org/
 </br>
@@ -13,13 +13,13 @@
  * Página oficial de descarga: https://www.mongodb.com/try/download/community
 </br>
 
-### Instalaciones previas: Framework
+### 1.2. Instalaciones previas: Framework
 **Django** (framework en base a Python)
  * Ejectuar como comando CLI: _pip install django_
 </br>
 
 
-### Instalaciones previas: Librerías
+### 1.3. Instalaciones previas: Librerías
 Para el correcto funcionamiento del proyecto de Django, es necesario tener instaladas algunas dependencias:
 </br>
 
@@ -40,5 +40,10 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
 </br>
 
 
-### Ejecución del servidor de Django
-* Ejectuar como comando CLI en la carpeta del proyecto Django: _python manage.py runserver_
+### 2. Ejecución
+**Ejecución y conexión a base de datos**
+  * Iniciar programa MongoDB y establecer conexión con el servidor local
+</br>
+
+**Ejecución del servidor de Django**
+  * Ejectuar como comando CLI en la carpeta del proyecto Django: _python manage.py runserver_
