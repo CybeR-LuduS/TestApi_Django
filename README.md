@@ -3,7 +3,7 @@
 ## Introducción
 
 Este proyecto de Django existe con el propósito de crear servicios API REST para una aplicación móvil desarrollada en Ionic.
-La aplicación para dispositivo se llama TeLlevoApp y corresponde al trabajo semestral de la asignatura "Programación de Aplicaciones Móviles", de la carrera Ingeniería en Informática, del Instituto Profesional Duoc UC.
+La aplicación para dispositivos móviles se llama TeLlevoApp y corresponde al trabajo semestral de la asignatura "Programación de Aplicaciones Móviles", de la carrera Ingeniería en Informática, del Instituto Profesional Duoc UC.
 </br>
 
 **Alumnos**
