@@ -12,6 +12,8 @@ La aplicación para dispositivos móviles se llama TeLlevoApp y corresponde al t
  <li>Pablo Maldonado</li>
 </ul>
 
+Repositorio del proyecto de Ionic "TeLlevoApp": https://github.com/CybeR-LuduS/pApp 
+
 ## Instrucciones
 
 ### 1.1. Instalaciones previas: Programas
@@ -21,6 +23,12 @@ La aplicación para dispositivos móviles se llama TeLlevoApp y corresponde al t
 
 **MongoDB** (motor de base de datos no relacional)
  * Página oficial de descarga: https://www.mongodb.com/try/download/community
+</br>
+
+**MongoDB Compass** (interfaz gráfica para MongoDB) 
+
+== En el caso de no incluirse la opción en el instalador de MongoDB ==
+ * Página oficial de descarga: https://www.mongodb.com/try/download/compass
 </br>
 
 ### 1.2. Instalaciones previas: Framework
@@ -41,18 +49,20 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
  * Ejectuar como comando CLI: _pip install djongo_
 </br>
 
-**django-cors-headers**
+**django-cors-headers** (para permitir solicitudes en el navegador a la aplicación Django desde otros orígenes)
  * Ejectuar como comando CLI: _pip install django-cors-headers_
 </br>
 
-**Pymongo 3.12.3** (las nuevas versiones de pymongo no son compatibles con Djongo)
+**Pymongo 3.12.3** (contiene herramientas para interactuar con la base de datos MongoDB desde Python) 
+
+== Las nuevas versiones de pymongo no son compatibles con Djongo ==
  * Ejectuar como comando CLI: _pip install pymongo==3.12.3_
 </br>
 
 
 ### 2. Ejecución
 **Ejecución y conexión a base de datos**
-  * Iniciar programa MongoDB y establecer conexión con el servidor local
+  * Iniciar programa MongoDBCompass y establecer conexión con el servidor local
 </br>
 
 **Ejecución del servidor de Django**
