@@ -37,7 +37,7 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
  * Ejectuar como comando CLI: _pip install djangorestframework_
 </br>
 
-**Djongo** (conector MongoDB para Django MongoDB)
+**Djongo** (conector MongoDB para Django)
  * Ejectuar como comando CLI: _pip install djongo_
 </br>
 
