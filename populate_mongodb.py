@@ -26,6 +26,8 @@ usuarios = db["core_usuario"]
 usuarios_data = [
     {
         "rut": "16111111-1",
+        "correo": "juan.perez@duocuc.cl",
+        "contrasennia": "juanperez",
         "nombre": "Juan",
         "apellidoPaterno": "Pérez",
         "apellidoMaterno": "Pérez",
@@ -38,6 +40,8 @@ usuarios_data = [
     },
     {
         "rut": "16222222-2",
+        "correo": "maria.rodriguez@duocuc.cl",
+        "contrasennia": "mariarodriguez",        
         "nombre": "María",
         "apellidoPaterno": "Rodríguez",
         "apellidoMaterno": "Rodríguez",
@@ -50,7 +54,9 @@ usuarios_data = [
     },
     {
         "rut": "16333333-3",
-        "nombre": "Carlos Sánchez",
+        "correo": "carlos.sanchez@duocuc.cl",
+        "contrasennia": "carlossanchez", 
+        "nombre": "Carlos",
         "apellidoPaterno": "Sánchez",
         "apellidoMaterno": "Sánchez",
         "fechaNacimiento": "03/03/1992",
@@ -62,6 +68,8 @@ usuarios_data = [
     },
     {
         "rut": "16444444-4",
+        "correo": "laura.fernandez@duocuc.cl",
+        "contrasennia": "laurafernandez", 
         "nombre": "Laura",
         "apellidoPaterno": "Fernández",
         "apellidoMaterno": "Fernández",
@@ -74,6 +82,8 @@ usuarios_data = [
     },
     {
         "rut": "16555555-5",
+        "correo": "pedro.gomez@duocuc.cl",
+        "contrasennia": "pedrogomez", 
         "nombre": "Pedro",
         "apellidoPaterno": "Gómez",
         "apellidoMaterno": "Gómez",
@@ -85,7 +95,9 @@ usuarios_data = [
     },
     {
         "rut": "16666666-6",
-        "nombre": "Ana",
+        "correo": "javiera.lopez@duocuc.cl",
+        "contrasennia": "javieralopez", 
+        "nombre": "Javiera",
         "apellidoPaterno": "López",
         "apellidoMaterno": "López",
         "fechaNacimiento": "06/06/1995",
@@ -96,6 +108,8 @@ usuarios_data = [
     },
     {
         "rut": "16777777-7",
+        "correo": "martin.torres@duocuc.cl",
+        "contrasennia": "martintorres", 
         "nombre": "Martín",
         "apellidoPaterno": "Torres",
         "apellidoMaterno": "Torres",
@@ -108,6 +122,8 @@ usuarios_data = [
     },
     {
         "rut": "16888888-8",
+        "correo": "carmen.ruiz@duocuc.cl",
+        "contrasennia": "carmenruiz", 
         "nombre": "Carmen",
         "apellidoPaterno": "Ruiz",
         "apellidoMaterno": "Ruiz",
@@ -119,6 +135,8 @@ usuarios_data = [
     },
     {
         "rut": "16999999-9",
+        "correo": "javier.garcia@duocuc.cl",
+        "contrasennia": "javiergarcia", 
         "nombre": "Javier",
         "apellidoPaterno": "García",
         "apellidoMaterno": "García",
