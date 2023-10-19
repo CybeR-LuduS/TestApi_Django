@@ -33,7 +33,7 @@ Repositorio del proyecto de Ionic "TeLlevoApp": https://github.com/CybeR-LuduS/p
 
 ### 1.2. Instalaciones previas: Framework
 **Django** (framework en base a Python)
- * Ejectuar como comando CLI: _pip install django_
+ * Ejecutar como comando CLI: _pip install django_
 </br>
 
 
@@ -42,21 +42,21 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
 </br>
 
 **Django REST framework** (framework para construir APIs REST en Django)
- * Ejectuar como comando CLI: _pip install djangorestframework_
+ * Ejecutar como comando CLI: _pip install djangorestframework_
 </br>
 
 **Djongo** (conector MongoDB para Django)
- * Ejectuar como comando CLI: _pip install djongo_
+ * Ejecutar como comando CLI: _pip install djongo_
 </br>
 
 **django-cors-headers** (para permitir solicitudes en el navegador a la aplicación Django desde otros orígenes)
- * Ejectuar como comando CLI: _pip install django-cors-headers_
+ * Ejecutar como comando CLI: _pip install django-cors-headers_
 </br>
 
 **Pymongo 3.12.3** (contiene herramientas para interactuar con la base de datos MongoDB desde Python) 
 
 == Las nuevas versiones de pymongo no son compatibles con Djongo ==
- * Ejectuar como comando CLI: _pip install pymongo==3.12.3_
+ * Ejecutar como comando CLI: _pip install pymongo==3.12.3_
 </br>
 
 
@@ -65,9 +65,16 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
   * Iniciar programa MongoDBCompass y establecer conexión con el servidor local
 </br>
 
+**Crear base de datos en MongoDB**
+ * Con el nombre: api_db
+</br>
+
+**Hacer migraciones en Django**
+ * Ejecutar como comando CLI en la carpeta del proyecto Django: _python manage.py makemigrations_ seguido de _python manage.py migrate_
+
 **Importación de documentos en base de datos**
- * Ejectuar como comando CLI en el directorio raíz del proyecto: _python populate_mongodb.py_
+ * Ejecutar como comando CLI en el directorio raíz del proyecto: _python populate_mongodb.py_
 </br>
 
 **Ejecución del servidor de Django**
-  * Ejectuar como comando CLI en la carpeta del proyecto Django: _python manage.py runserver_
+  * Ejecutar como comando CLI en la carpeta del proyecto Django: _python manage.py runserver_
