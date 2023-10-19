@@ -65,5 +65,9 @@ Para el correcto funcionamiento del proyecto de Django, es necesario tener insta
   * Iniciar programa MongoDBCompass y establecer conexión con el servidor local
 </br>
 
+**Importación de documentos en base de datos**
+ * Ejectuar como comando CLI en el directorio raíz del proyecto: _python populate_mongodb.py_
+</br>
+
 **Ejecución del servidor de Django**
   * Ejectuar como comando CLI en la carpeta del proyecto Django: _python manage.py runserver_
