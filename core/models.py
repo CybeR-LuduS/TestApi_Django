@@ -6,9 +6,9 @@ class Vehiculo(models.Model):
     patente = models.CharField(max_length=10, primary_key=True, unique=True, verbose_name="Patente del Vehículo")
     marca = models.CharField(max_length=50, verbose_name="Marca del Vehículo")
     modelo = models.CharField(max_length=50, verbose_name="Modelo del Vehículo")
-    año = models.PositiveIntegerField(verbose_name="Año del Vehículo")
+    annio = models.PositiveIntegerField(verbose_name="Annio del Vehículo")
     color = models.CharField(max_length=20, verbose_name="Color del Vehículo")
-    capacidad_pasajeros = models.PositiveIntegerField(verbose_name="Capacidad de Pasajeros")
+    capacidadPasajeros = models.PositiveIntegerField(verbose_name="Capacidad de Pasajeros")
 
     
     def __str__(self):

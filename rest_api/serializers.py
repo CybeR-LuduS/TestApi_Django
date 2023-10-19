@@ -8,7 +8,7 @@ from core.models import Vehiculo
 class VehiculoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Vehiculo
-        fields = ['patente', 'marca', 'modelo', 'año', 'color', 'capacidad_pasajeros', 'capacidad_carga', 'tipo_combustible', 'kilometraje', 'estado_mantenimiento', 'fecha_compra', 'propietario']
+        fields = ['patente', 'marca', 'modelo', 'annio', 'color', 'capacidad_pasajeros', 'capacidad_carga', 'tipo_combustible', 'kilometraje', 'estado_mantenimiento', 'fecha_compra', 'propietario']
 
 
 class CategoriaSerializer(serializers.ModelSerializer):
