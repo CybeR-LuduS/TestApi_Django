@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class Vehiculo(models.Model):
-    patente = models.CharField(max_length=10, primary_key=True, unique=True, verbose_name="Patente del Vehículo")
+    patenteVehiculo = models.CharField(max_length=10, primary_key=True, unique=True, verbose_name="Patente del Vehículo")
     marca = models.CharField(max_length=50, verbose_name="Marca del Vehículo")
     modelo = models.CharField(max_length=50, verbose_name="Modelo del Vehículo")
     annio = models.PositiveIntegerField(verbose_name="Annio del Vehículo")
@@ -17,7 +17,7 @@ class Vehiculo(models.Model):
 
 
 class Categoria(models.Model):
-    id = models.IntegerField(primary_key=True, verbose_name = "Id de Categoria")
+    idCategoria = models.IntegerField(primary_key=True, verbose_name = "Id de Categoria")
     nombre = models.CharField(max_length=50, verbose_name = "Nombre de Categoria")
     descripcion = models.CharField(max_length=200, verbose_name = "Descripcion de Categoria")
 
@@ -37,10 +37,12 @@ class Usuario(models.Model):
     sede = models.CharField(max_length=50, verbose_name="Sede de Usuario")
     
     idCategoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, verbose_name="Categoría de Usuario") # Llave foránea, para conectar con clase Categoria
+    categoria = models.CharField(max_length=50, verbose_name = "Nombre de Categoria de Usuario")
 
     isActive = models.BooleanField(blank=True, verbose_name="Disponibilidad de Usuario Chofer")
 
     patenteVehiculo = models.ForeignKey(Vehiculo, on_delete=models.CASCADE, max_length=10, blank=True, verbose_name="Patente de vehículo de Usuario chofer") # Llave foránea, para conectar con clase Vehiculo
+    patente = models.CharField(max_length=10, unique=True, blank=True, verbose_name="Patente del Vehículo de Usuario Chofer")
 
     def __str__(self):
         texto = "({0}) {1} {2}"

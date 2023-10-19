@@ -8,12 +8,12 @@ db = client["api_db"]
 categorias = db["core_categoria"]
 categorias_data = [
     {
-        "id": "1",
+        "idCategoria": "1",
         "nombre": "Chofer",
         "descripcion": "Alumno inscrito como chofer en la aplicación, para atender a solicitudes de pasajeros",
     },
     {
-        "id": "2",
+        "idCategoria": "2",
         "nombre": "Pasajero",
         "descripcion": "Alumno inscrito como pasajero en la aplicación, para solicitar servicio de locomoción a alumno chofer",
     }
@@ -35,8 +35,10 @@ usuarios_data = [
         "carrera": "Ingeniería en Informática",
         "sede": "Antonio Varas",
         "idCategoria": "1",  # Asignar la categoría "Chofer"
+        "categoria": "Chofer",
         "isActive": True,
         "patenteVehiculo": "AB123CD",
+        "patente": "AB123CD",
     },
     {
         "rut": "16222222-2",
@@ -49,8 +51,10 @@ usuarios_data = [
         "carrera": "Gastronomía",
         "sede": "Antonio Varas",
         "idCategoria": "1",  # Asignar la categoría "Chofer"
+        "categoria": "Chofer",
         "isActive": True,
         "patenteVehiculo": "XY987ZA",
+        "patente": "XY987ZA",
     },
     {
         "rut": "16333333-3",
@@ -63,8 +67,10 @@ usuarios_data = [
         "carrera": "Administración de Redes y Telecomunicaciones",
         "sede": "Plaza Oeste",
         "idCategoria": "1",  # Asignar la categoría "Chofer"
+        "categoria": "Chofer",
         "isActive": False,
         "patenteVehiculo": "LM456OP",
+        "patente": "LM456OP",
     },
     {
         "rut": "16444444-4",
@@ -77,8 +83,10 @@ usuarios_data = [
         "carrera": "Turismo",
         "sede": "Antonio Varas",
         "idCategoria": "1",  # Asignar la categoría "Chofer"
+        "categoria": "Chofer",
         "isActive": False,
         "patenteVehiculo": "PQ789RS",
+        "patente": "PQ789RS",
     },
     {
         "rut": "16555555-5",
@@ -91,7 +99,7 @@ usuarios_data = [
         "carrera": "Auditoría",
         "sede": "Maipú",
         "idCategoria": "2",  # Asignar la categoría "Pasajero"
-        "isActive": False,
+        "categoria": "Pasajero",
     },
     {
         "rut": "16666666-6",
@@ -104,7 +112,7 @@ usuarios_data = [
         "carrera": "Ingeniería en Marketing Digital",
         "sede": "Maipú",
         "idCategoria": "2",  # Asignar la categoría "Pasajero"
-        "isActive": False,
+        "categoria": "Pasajero",
     },
     {
         "rut": "16777777-7",
@@ -117,8 +125,10 @@ usuarios_data = [
         "carrera": "Ingeniería en Gestión Logística",
         "sede": "Padre Alonso de Ovalle",
         "idCategoria": "1",  # Asignar la categoría "Chofer"
+        "categoria": "Chofer",
         "isActive": True,
         "patenteVehiculo": "JK321UW",
+        "patente": "JK321UW",
     },
     {
         "rut": "16888888-8",
@@ -131,7 +141,7 @@ usuarios_data = [
         "carrera": "Ingeniería en Gestión Logística",
         "sede": "Padre Alonso de Ovalle",
         "idCategoria": "2",  # Asignar la categoría "Pasajero"
-        "isActive": False,
+        "categoria": "Pasajero",
     },
     {
         "rut": "16999999-9",
@@ -144,6 +154,7 @@ usuarios_data = [
         "carrera": "Ingeniería en Prevención de Riesgos",
         "sede": "San Bernardo",
         "idCategoria": "2",  # Asignar la categoría "Pasajero"
+        "categoria": "Pasajero",
         "isActive": False,
     },
 ]
@@ -154,7 +165,7 @@ usuarios.insert_many(usuarios_data)
 vehiculos = db["core_vehiculo"]
 vehiculos_data = [
     {
-        "patente": "AB123CD",
+        "patenteVehiculo": "AB123CD",
         "marca": "Marca1",
         "modelo": "Modelo1",
         "annio": 2020,
@@ -162,7 +173,7 @@ vehiculos_data = [
         "capacidadPasajeros": 5,
     },
     {
-        "patente": "XY987ZA",
+        "patenteVehiculo": "XY987ZA",
         "marca": "Marca2",
         "modelo": "Modelo2",
         "annio": 2021,
@@ -170,7 +181,7 @@ vehiculos_data = [
         "capacidadPasajeros": 4,
     },
     {
-        "patente": "LM456OP",
+        "patenteVehiculo": "LM456OP",
         "marca": "Marca3",
         "modelo": "Modelo3",
         "annio": 2019,
@@ -178,7 +189,7 @@ vehiculos_data = [
         "capacidadPasajeros": 6,
     },
     {
-        "patente": "PQ789RS",
+        "patenteVehiculo": "PQ789RS",
         "marca": "Marca4",
         "modelo": "Modelo4",
         "annio": 2022,
@@ -186,7 +197,7 @@ vehiculos_data = [
         "capacidadPasajeros": 4,
     },
     {
-        "patente": "JK321UW",
+        "patenteVehiculo": "JK321UW",
         "marca": "Marca5",
         "modelo": "Modelo5",
         "annio": 2018,
