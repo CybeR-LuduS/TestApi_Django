@@ -2,10 +2,12 @@ from django.shortcuts import render
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework.views import APIView
 from rest_framework.parsers import JSONParser
 from django.views.decorators.csrf import csrf_exempt
 from core.models import Vehiculo, Categoria, Usuario
 from .serializers import VehiculoSerializer, CategoriaSerializer, UsuarioSerializer
+
 
 # Create your views here.
 @csrf_exempt
@@ -56,3 +58,4 @@ def actualizar_usuario(request, correo):
         usuario.save()
 
         return Response({"message": "Contraseña actualizada con éxito"}, status=status.HTTP_200_OK)
+    
