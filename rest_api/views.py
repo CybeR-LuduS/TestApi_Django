@@ -29,3 +29,8 @@ def lista_usuarios(request):
     serializer = UsuarioSerializer(usuarios, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
     
+@api_view(['GET'])
+def choferes_activos(request):
+    usuarios = Usuario.objects.filter(categoria='chofer', isActive=True)
+    serializer = UsuarioSerializer(usuarios, many=True)
+    return Response(serializer.data)
