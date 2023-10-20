@@ -6,6 +6,4 @@ urlpatterns=[
     path('lista_vehiculos', lista_vehiculos, name="Lista Vehiculos"),
     path('lista_categorias', lista_categorias, name="Lista Categorias"),
     path('lista_usuarios', lista_usuarios, name="Lista Usuarios"),
-
-    path('api/actualizar-usuario/<str:correo>/', views.actualizar_usuario, name='actualizar_usuario'),
 ]
