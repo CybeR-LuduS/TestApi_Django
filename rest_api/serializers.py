@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from core.models import Vehiculo, Categoria, Usuario
+from core.models import Vehiculo, Categoria, Usuario, Viaje
 
 
 from rest_framework import serializers
@@ -21,3 +21,9 @@ class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
         fields = ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'fechaNacimiento', 'carrera', 'sede', 'idCategoria', 'categoria', 'isActive', 'patenteVehiculo', 'patente']
+
+
+class ViajeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Viaje
+        fields = ['idViaje', 'rutConductor', 'horaSalida', 'capacidadPasajeros','patenteVehiculo', 'estadoViaje']
