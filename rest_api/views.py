@@ -5,8 +5,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.parsers import JSONParser
 from django.views.decorators.csrf import csrf_exempt
-from core.models import Vehiculo, Categoria, Usuario
-from .serializers import VehiculoSerializer, CategoriaSerializer, UsuarioSerializer
+from core.models import Vehiculo, Categoria, Usuario, Viaje
+from .serializers import VehiculoSerializer, CategoriaSerializer, UsuarioSerializer, ViajeSerializer
 
 
 # Create your views here.
@@ -33,4 +33,10 @@ def lista_usuarios(request):
 def choferes_activos(request):
     usuarios = Usuario.objects.filter(categoria='chofer', isActive=True)
     serializer = UsuarioSerializer(usuarios, many=True)
-    return Response(serializer.data)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+
+@api_view(['GET'])
+def lista_viajes(request):
+    viajes = Viaje.objects.all()
+    serializer = ViajeSerializer(viajes, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
