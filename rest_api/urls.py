@@ -1,5 +1,6 @@
 from django.urls import path
-from rest_api.views import lista_vehiculos, lista_categorias, lista_usuarios 
+from rest_api.views import lista_vehiculos, lista_categorias, lista_usuarios, choferes_activos, lista_viajes
+ 
 from . import views
 
 urlpatterns=[
@@ -7,5 +8,7 @@ urlpatterns=[
     path('lista_categorias', lista_categorias, name="Lista Categorias"),
     path('lista_usuarios', lista_usuarios, name="Lista Usuarios"),
 
-    path('choferes-activos/', views.choferes_activos, name='choferes_activos'),
+    path('choferes_activos', choferes_activos, name="Choferes Activos"),
+
+    path('lista_viajes', lista_viajes, name="Lista Viajes")
 ]
