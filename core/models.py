@@ -55,7 +55,7 @@ class Viaje(models.Model):
     horaSalida = models.TimeField(verbose_name="Hora de salida")
     capacidadPasajeros = models.IntegerField(verbose_name="Capacidad de Pasajeros")
     patenteVehiculo = models.ForeignKey(Vehiculo, on_delete=models.CASCADE, max_length=10, blank=True, verbose_name="Patente de vehículo de Usuario chofer") # Llave foránea, para conectar con clase Vehiculo
-    estadoViaje = models.CharField(max_length=20, verbose_name="Estado del viaje")
+    estadoViaje = models.CharField(max_length=20, verbose_name="Estado del viaje") # Programado, En curso, Completado, Cancelado
 
     def __str__(self):
         texto = "({0}) ({1}) {2}"
