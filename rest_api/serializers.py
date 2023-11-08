@@ -24,6 +24,8 @@ class UsuarioSerializer(serializers.ModelSerializer):
 
 
 class ViajeSerializer(serializers.ModelSerializer):
+    patenteVehiculo = VehiculoSerializer()  # Usar un serializador anidado para el vehículo
+    
     class Meta:
         model = Viaje
-        fields = ['idViaje', 'rutConductor', 'horaSalida', 'capacidadPasajeros','patenteVehiculo', 'estadoViaje']
+        fields = ['idViaje', 'sedeDuoc', 'rutConductor', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'patenteVehiculo', 'estadoViaje']
