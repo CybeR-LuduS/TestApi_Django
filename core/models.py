@@ -51,6 +51,7 @@ class Usuario(models.Model):
 
 class Viaje(models.Model):
     idViaje = models.AutoField(primary_key=True, verbose_name="Id de Viaje")
+    sedeDuoc = models.CharField(max_length=30, verbose_name="Sede Duoc")
     rutConductor = models.ForeignKey(Usuario, on_delete=models.CASCADE, verbose_name="Rut del Conductor") # Llave foránea, para conectar con clase Usuario de categoría 'Chofer'
     horaSalida = models.TimeField(verbose_name="Hora de salida")
     capacidadPasajeros = models.IntegerField(verbose_name="Capacidad de Pasajeros")
