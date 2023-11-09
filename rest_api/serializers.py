@@ -12,5 +12,5 @@ class ViajeSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Viaje
-        fields = ['idViaje', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje',
-                  'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']
+        fields = ['sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje',
+                  'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer']
