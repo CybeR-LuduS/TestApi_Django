@@ -26,9 +26,8 @@ class Usuario(models.Model):
     
 
 class Viaje(models.Model):
-    idViaje = models.AutoField(primary_key=True, verbose_name="Id de Viaje")
     sede = models.CharField(max_length=30, verbose_name="Sede Duoc")
-    rut = models.CharField(unique=True, max_length=10, verbose_name="Rut de Usuario")
+    rut = models.CharField(unique=True, max_length=10, verbose_name="Rut de Usuario Chofer")
     horaSalida = models.TimeField(verbose_name="Hora de salida")
     capacidadPasajeros = models.IntegerField(verbose_name="Capacidad de Pasajeros")
     precioPorPersona = models.IntegerField(verbose_name="Precio por Persona")
@@ -38,10 +37,17 @@ class Viaje(models.Model):
     marcaVehiculo = models.CharField(max_length=50, blank=True, verbose_name="Marca del Vehículo")
     modeloVehiculo = models.CharField(max_length=50, blank=True, verbose_name="Modelo del Vehículo")
     colorVehiculo = models.CharField(max_length=20, blank=True, verbose_name="Color del Vehículo")
+
+    correoChofer = models.CharField(max_length=50, verbose_name="Correo de Usuario Chofer")
+
+    def save(self, *args, **kwargs):
+        if self.horaSalida:
+            self.horaSalida = self.horaSalida.strftime('%H:%M')
+        super().save(*args, **kwargs)
     
     def __str__(self):
-        texto = "({0}) ({1}) {2}"
-        return texto.format(self.idViaje, self.patenteVehiculo, self.estadoViaje)
+        texto = "({0}) {1}"
+        return texto.format(self.patenteVehiculo, self.estadoViaje)
 
 
 
