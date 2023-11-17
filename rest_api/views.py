@@ -19,12 +19,17 @@ def lista_usuarios(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
     
 
-@api_view(['GET', 'POST'])
-def lista_viajes(request):
+@api_view(['GET', 'POST', 'PUT', 'DELETE'])
+def lista_viajes(request, pk=None):
     if request.method == 'GET':
-        viajes = Viaje.objects.all()
-        serializer = ViajeSerializer(viajes, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        if pk is not None:
+            viaje = Viaje.objects.get(pk=pk)
+            serializer = ViajeSerializer(viaje)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        else:
+            viajes = Viaje.objects.all()
+            serializer = ViajeSerializer(viajes, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
     elif request.method == 'POST':
         serializer = ViajeSerializer(data=request.data)
         if serializer.is_valid():
@@ -32,5 +37,18 @@ def lista_viajes(request):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    elif request.method == 'PUT':
+        viaje = Viaje.objects.get(pk=pk)
+        serializer = ViajeSerializer(viaje, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        else:
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    elif request.method == 'DELETE':
+        viaje = Viaje.objects.get(pk=pk)
+        viaje.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 
 

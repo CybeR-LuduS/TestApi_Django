@@ -1,4 +1,5 @@
 from django.db import models
+from bson import ObjectId
 
 # Create your models here.
 
@@ -26,6 +27,7 @@ class Usuario(models.Model):
     
 
 class Viaje(models.Model):
+    _id = models.CharField(max_length=24, primary_key=True, default=str(ObjectId()), editable=False)
     sede = models.CharField(max_length=30, verbose_name="Sede Duoc")
     rut = models.CharField(unique=True, max_length=10, verbose_name="Rut de Usuario Chofer")
     horaSalida = models.CharField(max_length=20, verbose_name="Hora de salida")
@@ -39,6 +41,7 @@ class Viaje(models.Model):
     colorVehiculo = models.CharField(max_length=20, blank=True, verbose_name="Color del Vehículo")
 
     correoChofer = models.CharField(max_length=50, verbose_name="Correo de Usuario Chofer")
+    correoPasajero = models.CharField(max_length=50, null=True, blank=True, verbose_name="Correo de Usuario Pasajero")
 
     
     def __str__(self):
