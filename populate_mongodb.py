@@ -157,40 +157,6 @@ usuarios_data = [
 usuarios.insert_many(usuarios_data)
 
 
-# Crear viajes 
-viajes = db["core_viaje"]
-viajes_data = [
-    {
-        "sede": "Antonio Varas",
-        "rut": "16111111-1",
-        "horaSalida": "22:00:00",
-        "capacidadPasajeros": 4,
-        "precioPorPersona": 3000,
-        "estadoViaje": "Programado",
-        "patenteVehiculo": "AB123CD",
-        "marcaVehiculo": "Marca1",
-        "modeloVehiculo": "Modelo1",
-        "colorVehiculo": "Rojo",
-        "correoChofer": "juan.perez@duocuc.cl"
-    },
-    {
-        "sede": "Antonio Varas",
-        "rut": "17000000-0",
-        "horaSalida": "21:00:00",
-        "capacidadPasajeros": 2,
-        "precioPorPersona": 4000,
-        "estadoViaje": "Programado",
-        "patenteVehiculo": "MO123OM",
-        "marcaVehiculo": "Marca6",
-        "modeloVehiculo": "Modelo6",
-        "colorVehiculo": "Azul",
-        "correoChofer": "mart.orellana@duocuc.cl"
-    }
-
-]
-
-viajes.insert_many(viajes_data)
-
 
 
 # Cerrar la conexión a MongoDB
