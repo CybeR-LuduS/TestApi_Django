@@ -31,7 +31,6 @@ class Viaje(models.Model):
     sede = models.CharField(max_length=30, verbose_name="Sede Duoc")
     rut = models.CharField(unique=True, max_length=10, verbose_name="Rut de Usuario Chofer")
     horaSalida = models.CharField(max_length=20, verbose_name="Hora de salida")
-    capacidadPasajeros = models.IntegerField(verbose_name="Capacidad de Pasajeros")
     precioPorPersona = models.IntegerField(verbose_name="Precio por Persona")
     estadoViaje = models.CharField(max_length=20, verbose_name="Estado del viaje") # Programado, En curso, Completado, Cancelado
 
