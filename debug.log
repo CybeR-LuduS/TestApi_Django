@@ -3193,3 +3193,1212 @@ params: ()
 Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
 Result: ('6570de08a4e9d1f6d3921dd5', 'Antonio Varas', '17000000-0', '2023-12-06T18:48:00', 1, 1000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
 MongoClient connection closed
+Watching for file changes with StatReloader
+New MongoClient connection
+New Database connection
+sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+Find query: {'projection': ['id', 'app', 'name', 'applied']}
+Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 169000))
+Result: (2, 'auth', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 524000))
+Result: (3, 'admin', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 608000))
+Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2023, 11, 17, 22, 26, 9, 629000))
+Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2023, 11, 17, 22, 26, 9, 654000))
+Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2023, 11, 17, 22, 26, 9, 716000))
+Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 741000))
+Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 766000))
+Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2023, 11, 17, 22, 26, 9, 794000))
+Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2023, 11, 17, 22, 26, 9, 845000))
+Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2023, 11, 17, 22, 26, 9, 873000))
+Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2023, 11, 17, 22, 26, 9, 899000))
+Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 946000))
+Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 976000))
+Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 996000))
+Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2023, 11, 17, 22, 26, 10, 65000))
+Result: (17, 'auth', '0012_alter_user_first_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 10, 107000))
+Result: (18, 'core', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 214000))
+Result: (19, 'sessions', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 261000))
+Result: (20, 'core', '0002_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 71000))
+Result: (21, 'core', '0003_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 133000))
+Result: (22, 'core', '0004_remove_viaje_capacidadpasajeros_alter_viaje__id', datetime.datetime(2023, 11, 18, 16, 51, 55, 23000))
+Result: (23, 'core', '0005_alter_viaje__id', datetime.datetime(2023, 12, 6, 19, 29, 54, 310000))
+Result: (24, 'core', '0005_remove_viaje_correopasajero_viaje_capacidadpasajeros_and_more', datetime.datetime(2023, 12, 6, 19, 56, 31, 283000))
+Result: (25, 'core', '0005_viaje_capacidadpasajeros_alter_viaje__id_and_more', datetime.datetime(2023, 12, 6, 20, 33, 14, 669000))
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+MongoClient connection closed
+New Database connection
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE "core_viaje"."rut" = %(1)s LIMIT 1
+params: (1, '17000000-0')
+Find query: {'filter': {'rut': {'$eq': '17000000-0'}}, 'projection': ['a'], 'limit': 1}
+sql_command: INSERT INTO "core_viaje" ("_id", "sede", "rut", "horaSalida", "capacidadPasajeros", "precioPorPersona", "estadoViaje", "patenteVehiculo", "marcaVehiculo", "modeloVehiculo", "colorVehiculo", "correoChofer", "correoPasajero") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s, %(5)s, %(6)s, %(7)s, %(8)s, %(9)s, %(10)s, %(11)s, %(12)s)
+params: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+inserted ids ['6570f8ff61ea8a1a9b3c0c56']
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('6570f8ff61ea8a1a9b3c0c56', 'Antonio Varas', '17000000-0', '2023-12-06T20:46:00', 1, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Watching for file changes with StatReloader
+New MongoClient connection
+New Database connection
+sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+Find query: {'projection': ['id', 'app', 'name', 'applied']}
+Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 169000))
+Result: (2, 'auth', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 524000))
+Result: (3, 'admin', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 608000))
+Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2023, 11, 17, 22, 26, 9, 629000))
+Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2023, 11, 17, 22, 26, 9, 654000))
+Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2023, 11, 17, 22, 26, 9, 716000))
+Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 741000))
+Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 766000))
+Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2023, 11, 17, 22, 26, 9, 794000))
+Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2023, 11, 17, 22, 26, 9, 845000))
+Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2023, 11, 17, 22, 26, 9, 873000))
+Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2023, 11, 17, 22, 26, 9, 899000))
+Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 946000))
+Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 976000))
+Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 996000))
+Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2023, 11, 17, 22, 26, 10, 65000))
+Result: (17, 'auth', '0012_alter_user_first_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 10, 107000))
+Result: (18, 'core', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 214000))
+Result: (19, 'sessions', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 261000))
+Result: (20, 'core', '0002_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 71000))
+Result: (21, 'core', '0003_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 133000))
+Result: (22, 'core', '0004_remove_viaje_capacidadpasajeros_alter_viaje__id', datetime.datetime(2023, 11, 18, 16, 51, 55, 23000))
+Result: (23, 'core', '0005_alter_viaje__id', datetime.datetime(2023, 12, 6, 19, 29, 54, 310000))
+Result: (24, 'core', '0005_remove_viaje_correopasajero_viaje_capacidadpasajeros_and_more', datetime.datetime(2023, 12, 6, 19, 56, 31, 283000))
+Result: (25, 'core', '0005_viaje_capacidadpasajeros_alter_viaje__id_and_more', datetime.datetime(2023, 12, 6, 20, 33, 14, 669000))
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE "core_viaje"."rut" = %(1)s LIMIT 1
+params: (1, '17000000-0')
+Find query: {'filter': {'rut': {'$eq': '17000000-0'}}, 'projection': ['a'], 'limit': 1}
+sql_command: INSERT INTO "core_viaje" ("_id", "sede", "rut", "horaSalida", "capacidadPasajeros", "precioPorPersona", "estadoViaje", "patenteVehiculo", "marcaVehiculo", "modeloVehiculo", "colorVehiculo", "correoChofer", "correoPasajero") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s, %(5)s, %(6)s, %(7)s, %(8)s, %(9)s, %(10)s, %(11)s, %(12)s)
+params: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+inserted ids ['657101d08dbce041b00991a4']
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', '')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+Bad Request: /api/lista_viajes/657101d08dbce041b00991a4
+MongoClient connection closed
+Watching for file changes with StatReloader
+New MongoClient connection
+New Database connection
+sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+Find query: {'projection': ['id', 'app', 'name', 'applied']}
+Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 169000))
+Result: (2, 'auth', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 524000))
+Result: (3, 'admin', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 9, 608000))
+Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2023, 11, 17, 22, 26, 9, 629000))
+Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2023, 11, 17, 22, 26, 9, 654000))
+Result: (6, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2023, 11, 17, 22, 26, 9, 716000))
+Result: (7, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 741000))
+Result: (8, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 766000))
+Result: (9, 'auth', '0004_alter_user_username_opts', datetime.datetime(2023, 11, 17, 22, 26, 9, 794000))
+Result: (10, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2023, 11, 17, 22, 26, 9, 845000))
+Result: (11, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2023, 11, 17, 22, 26, 9, 873000))
+Result: (12, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2023, 11, 17, 22, 26, 9, 899000))
+Result: (13, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 946000))
+Result: (14, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 976000))
+Result: (15, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 9, 996000))
+Result: (16, 'auth', '0011_update_proxy_permissions', datetime.datetime(2023, 11, 17, 22, 26, 10, 65000))
+Result: (17, 'auth', '0012_alter_user_first_name_max_length', datetime.datetime(2023, 11, 17, 22, 26, 10, 107000))
+Result: (18, 'core', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 214000))
+Result: (19, 'sessions', '0001_initial', datetime.datetime(2023, 11, 17, 22, 26, 10, 261000))
+Result: (20, 'core', '0002_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 71000))
+Result: (21, 'core', '0003_alter_viaje__id', datetime.datetime(2023, 11, 18, 15, 28, 50, 133000))
+Result: (22, 'core', '0004_remove_viaje_capacidadpasajeros_alter_viaje__id', datetime.datetime(2023, 11, 18, 16, 51, 55, 23000))
+Result: (23, 'core', '0005_alter_viaje__id', datetime.datetime(2023, 12, 6, 19, 29, 54, 310000))
+Result: (24, 'core', '0005_remove_viaje_correopasajero_viaje_capacidadpasajeros_and_more', datetime.datetime(2023, 12, 6, 19, 56, 31, 283000))
+Result: (25, 'core', '0005_viaje_capacidadpasajeros_alter_viaje__id_and_more', datetime.datetime(2023, 12, 6, 20, 33, 14, 669000))
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pabl.maldonado@duocuc.cl,pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_usuario"."rut", "core_usuario"."correo", "core_usuario"."contrasennia", "core_usuario"."nombre", "core_usuario"."apellidoPaterno", "core_usuario"."apellidoMaterno", "core_usuario"."carrera", "core_usuario"."sede", "core_usuario"."categoria", "core_usuario"."patenteVehiculo", "core_usuario"."marcaVehiculo", "core_usuario"."modeloVehiculo", "core_usuario"."colorVehiculo" FROM "core_usuario"
+params: ()
+Find query: {'projection': ['rut', 'correo', 'contrasennia', 'nombre', 'apellidoPaterno', 'apellidoMaterno', 'carrera', 'sede', 'categoria', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo']}
+Result: ('16111111-1', 'juan.perez@duocuc.cl', 'juanperez', 'Juan', 'Pérez', 'Pérez', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'AB123CD', 'Marca1', 'Modelo1', 'Rojo')
+Result: ('16222222-2', 'maria.rodriguez@duocuc.cl', 'mariarodriguez', 'María', 'Rodríguez', 'Rodríguez', 'Gastronomía', 'Antonio Varas', 'Chofer', 'XY987ZA', 'Marca2', 'Modelo2', 'Azul')
+Result: ('16333333-3', 'carlos.sanchez@duocuc.cl', 'carlossanchez', 'Carlos', 'Sánchez', 'Sánchez', 'Administración de Redes y Telecomunicaciones', 'Plaza Oeste', 'Chofer', 'LM456OP', 'Marca3', 'Modelo3', 'Verde')
+Result: ('16444444-4', 'laura.fernandez@duocuc.cl', 'laurafernandez', 'Laura', 'Fernández', 'Fernández', 'Turismo', 'Antonio Varas', 'Chofer', 'PQ789RS', 'Marca4', 'Modelo4', 'Amarillo')
+Result: ('16555555-5', 'pedro.gomez@duocuc.cl', 'pedrogomez', 'Pedro', 'Gómez', 'Gómez', 'Auditoría', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16666666-6', 'javiera.lopez@duocuc.cl', 'javieralopez', 'Javiera', 'López', 'López', 'Ingeniería en Marketing Digital', 'Maipú', 'Pasajero', None, None, None, None)
+Result: ('16777777-7', 'martin.torres@duocuc.cl', 'martintorres', 'Martín', 'Torres', 'Torres', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Chofer', 'JK321UW', 'Marca5', 'Modelo5', 'Blanco')
+Result: ('16888888-8', 'carmen.ruiz@duocuc.cl', 'carmenruiz', 'Carmen', 'Ruiz', 'Ruiz', 'Ingeniería en Gestión Logística', 'Padre Alonso de Ovalle', 'Pasajero', None, None, None, None)
+Result: ('16999999-9', 'javier.garcia@duocuc.cl', 'javiergarcia', 'Javier', 'García', 'García', 'Ingeniería en Prevención de Riesgos', 'San Bernardo', 'Pasajero', None, None, None, None)
+Result: ('17000000-0', 'mart.orellana@duocuc.cl', 'martinorellana', 'Martín', 'Orellana', 'Orellana', 'Ingeniería en Informática', 'Antonio Varas', 'Chofer', 'MO123OM', 'Marca6', 'Modelo6', 'Azul')
+Result: ('17111111-1', 'pabl.maldonado@duocuc.cl', 'pablomaldonado', 'Pablo', 'Maldonado', 'Maldonado', 'Ingeniería en Informática', 'Antonio Varas', 'Pasajero', None, None, None, None)
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje"
+params: ()
+Find query: {'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero']}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+MongoClient connection closed
+Existing MongoClient connection closed
+New Database connection
+sql_command: SELECT "core_viaje"."_id", "core_viaje"."sede", "core_viaje"."rut", "core_viaje"."horaSalida", "core_viaje"."capacidadPasajeros", "core_viaje"."precioPorPersona", "core_viaje"."estadoViaje", "core_viaje"."patenteVehiculo", "core_viaje"."marcaVehiculo", "core_viaje"."modeloVehiculo", "core_viaje"."colorVehiculo", "core_viaje"."correoChofer", "core_viaje"."correoPasajero" FROM "core_viaje" WHERE "core_viaje"."_id" = %(0)s LIMIT 21
+params: ('657101d08dbce041b00991a4',)
+Find query: {'filter': {'_id': {'$eq': '657101d08dbce041b00991a4'}}, 'projection': ['_id', 'sede', 'rut', 'horaSalida', 'capacidadPasajeros', 'precioPorPersona', 'estadoViaje', 'patenteVehiculo', 'marcaVehiculo', 'modeloVehiculo', 'colorVehiculo', 'correoChofer', 'correoPasajero'], 'limit': 21}
+Result: ('657101d08dbce041b00991a4', 'Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,javiera.lopez@duocuc.cl,carmen.ruiz@duocuc.cl')
+sql_command: SELECT %(0)s AS "a" FROM "core_viaje" WHERE ("core_viaje"."rut" = %(1)s AND NOT ("core_viaje"."_id" = %(2)s)) LIMIT 1
+params: (1, '17000000-0', '657101d08dbce041b00991a4')
+Find query: {'filter': {'$and': [{'rut': {'$eq': '17000000-0'}}, {'_id': {'$not': {'$eq': '657101d08dbce041b00991a4'}}}]}, 'projection': ['a'], 'limit': 1}
+sql_command: UPDATE "core_viaje" SET "sede" = %(0)s, "rut" = %(1)s, "horaSalida" = %(2)s, "capacidadPasajeros" = %(3)s, "precioPorPersona" = %(4)s, "estadoViaje" = %(5)s, "patenteVehiculo" = %(6)s, "marcaVehiculo" = %(7)s, "modeloVehiculo" = %(8)s, "colorVehiculo" = %(9)s, "correoChofer" = %(10)s, "correoPasajero" = %(11)s WHERE "core_viaje"."_id" = %(12)s
+params: ('Antonio Varas', '17000000-0', '2023-12-06T21:21:00', 4, 2000, 'Programado', 'MO123OM', 'Marca6', 'Modelo6', 'Azul', 'mart.orellana@duocuc.cl', ',pedro.gomez@duocuc.cl,carmen.ruiz@duocuc.cl', '657101d08dbce041b00991a4')
+update_many: 1, matched: 1
+MongoClient connection closed
