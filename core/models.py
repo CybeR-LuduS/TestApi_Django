@@ -1,7 +1,6 @@
 from django.db import models
 from bson import ObjectId
 
-
 def get_objectid():
     return str(ObjectId())
 
@@ -35,6 +34,7 @@ class Viaje(models.Model):
     sede = models.CharField(max_length=30, verbose_name="Sede Duoc")
     rut = models.CharField(unique=True, max_length=10, verbose_name="Rut de Usuario Chofer")
     horaSalida = models.CharField(max_length=20, verbose_name="Hora de salida")
+    capacidadPasajeros = models.IntegerField(default=1, verbose_name="Capacidad de pasajeros")
     precioPorPersona = models.IntegerField(verbose_name="Precio por Persona")
     estadoViaje = models.CharField(max_length=20, verbose_name="Estado del viaje") # Programado, En curso, Completado, Cancelado
 
@@ -44,7 +44,13 @@ class Viaje(models.Model):
     colorVehiculo = models.CharField(max_length=20, blank=True, verbose_name="Color del Vehículo")
 
     correoChofer = models.CharField(max_length=50, verbose_name="Correo de Usuario Chofer")
-    correoPasajero = models.CharField(max_length=50, null=True, blank=True, verbose_name="Correo de Usuario Pasajero")
+    correoPasajero = models.TextField(default='', verbose_name="Correos de los Pasajeros")
+
+    def get_correoPasajero(self):
+        return self.correoPasajero.split(',')
+
+    def set_correoPasajero(self, correos_list):
+        self.correoPasajero = ','.join(correos_list)
 
     
     def __str__(self):
