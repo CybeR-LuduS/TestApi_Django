@@ -44,13 +44,16 @@ class Viaje(models.Model):
     colorVehiculo = models.CharField(max_length=20, blank=True, verbose_name="Color del Vehículo")
 
     correoChofer = models.CharField(max_length=50, verbose_name="Correo de Usuario Chofer")
-    correoPasajero = models.TextField(default='', verbose_name="Correos de los Pasajeros")
+    correoPasajero = models.TextField(default='', blank=True, verbose_name="Correos de los Pasajeros")
 
     def get_correoPasajero(self):
         return self.correoPasajero.split(',')
 
-    def set_correoPasajero(self, correos_list):
+def set_correoPasajero(self, correos_list):
+    if correos_list:
         self.correoPasajero = ','.join(correos_list)
+    else:
+        self.correoPasajero = ' '
 
     
     def __str__(self):
